@@ -14,7 +14,6 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Basic-Auth = "hai:letmein2021"
     Access-Control-Allow-Origin = "*"
     Content-Security-Policy = "form-action https:"
     X-Content-Type-Options = "nosniff"
