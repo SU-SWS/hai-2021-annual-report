@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "assets/css/main.8154043c95aeb30079aa.css",
+    "url": "assets/css/main.2a7e784bd3ae8e788cc5.css",
     "revision": "7c9e673f343d57a164d6470ed6855ff2"
   },
   {
@@ -687,16 +687,16 @@ self.__precacheManifest = [
     "revision": "379ed50f4fcfcd85d13624ff641fde41"
   },
   {
-    "url": "assets/js/main.35cd61b91fe1112ee160.js",
-    "revision": "10d832c10936badf25ebf2425c9e5cfd"
+    "url": "assets/js/main.310bf62123eef9d57364.js",
+    "revision": "7a3a0338099e64cafdd162caae9c0db1"
   },
   {
-    "url": "assets/js/sw.35cd61b91fe1112ee160.js",
+    "url": "assets/js/sw.310bf62123eef9d57364.js",
     "revision": "c251be0d8396dbd731d20450ddd7a89e"
   },
   {
     "url": "education/index.html",
-    "revision": "ba7dd14bca729b5dc9d4a35fa10334c1"
+    "revision": "29c5d7366a6a4dafd91129a7816deb8c"
   },
   {
     "url": "favicon.ico",
@@ -704,7 +704,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "fb61c9db621a64ec6a77855c37b9452c"
+    "revision": "64227631e9cdc4c6bc9fb349ad7cb2d4"
   },
   {
     "url": "manifest.json",
@@ -712,15 +712,15 @@ self.__precacheManifest = [
   },
   {
     "url": "people/index.html",
-    "revision": "1f2e2532f2c1086a251526174065ec05"
+    "revision": "ec70ae1531e7d45a1dcf2b3133045b99"
   },
   {
     "url": "policy/index.html",
-    "revision": "86c04b1dbf127eb30a84ef03de4aa772"
+    "revision": "dec3084115e755bba3bdb7544e34da58"
   },
   {
     "url": "research/index.html",
-    "revision": "a11a274d534a951e5df329bdaf1f4e3a"
+    "revision": "0ca6c64df8594822a9b98926b1359c03"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
