@@ -27,8 +27,8 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "assets/css/main.2a7e784bd3ae8e788cc5.css",
-    "revision": "7c9e673f343d57a164d6470ed6855ff2"
+    "url": "assets/css/main.33c649416c14014e8b2a.css",
+    "revision": "e6b8396279ae93390ee70af48699eda0"
   },
   {
     "url": "assets/fonts/circular/CircularStd-Black.eot",
@@ -687,16 +687,16 @@ self.__precacheManifest = [
     "revision": "379ed50f4fcfcd85d13624ff641fde41"
   },
   {
-    "url": "assets/js/main.310bf62123eef9d57364.js",
-    "revision": "7a3a0338099e64cafdd162caae9c0db1"
+    "url": "assets/js/main.591ad33273fdda0076eb.js",
+    "revision": "26c0b7cfa1f060f2eedd7d9c1a72fc1c"
   },
   {
-    "url": "assets/js/sw.310bf62123eef9d57364.js",
+    "url": "assets/js/sw.591ad33273fdda0076eb.js",
     "revision": "c251be0d8396dbd731d20450ddd7a89e"
   },
   {
     "url": "education/index.html",
-    "revision": "29c5d7366a6a4dafd91129a7816deb8c"
+    "revision": "a12f253e0820f32bec7f01a50fbbb8b4"
   },
   {
     "url": "favicon.ico",
@@ -704,7 +704,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "64227631e9cdc4c6bc9fb349ad7cb2d4"
+    "revision": "bd265a1ab691eb41254880d8284dfffe"
   },
   {
     "url": "manifest.json",
@@ -712,15 +712,15 @@ self.__precacheManifest = [
   },
   {
     "url": "people/index.html",
-    "revision": "ec70ae1531e7d45a1dcf2b3133045b99"
+    "revision": "68c0b55f9f03d3df14e561761e59bc53"
   },
   {
     "url": "policy/index.html",
-    "revision": "dec3084115e755bba3bdb7544e34da58"
+    "revision": "53d7e5eb011834681f7a6524ad44e6b7"
   },
   {
     "url": "research/index.html",
-    "revision": "0ca6c64df8594822a9b98926b1359c03"
+    "revision": "5bc2e2393ab2989c6d2456dd4c0db30e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
