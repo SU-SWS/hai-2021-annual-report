@@ -1,4 +1,5 @@
 # HAI 2021 Annual Report
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f9b7b05f-ce9c-4815-a40a-0befbfba802d/deploy-status)](https://app.netlify.com/sites/hai-2021-annual-report/deploys)
 
 This repo contains a Netlify-hosted static website for the HAI 2021 Annual Report.
 
