@@ -28,5 +28,5 @@ The flat-file site was created by a third-party vendor. Our support of the site 
     - Make sure the PR is set to merge into the `main` branch (it should be by default).
 1. Netlify will run a few tests on the PR and also create a preview URL.
     - Wait for tests/checks to pass and then inspect/review the preview briefly for basic QA.
-1. Once the code is ready to deploy, merge the PR into the `main` branch (do not squash).
+1. Once the code is ready to deploy, squash and merge the PR into the `main` branch.
     - Whenever the `main` branch code is changed, it triggers a new deployment.
