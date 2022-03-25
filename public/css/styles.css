@@ -5596,6 +5596,10 @@ section.staff:not(.hero) {
   .hero:not(.footer-hero) .row .inner {
     margin-top: 270px
   }
+  .hero .lines-bg {
+    right: 37vw;
+    left: auto
+  }
   .hero.home-scroller-wrap .lines-bg {
     top: 20%
   }
