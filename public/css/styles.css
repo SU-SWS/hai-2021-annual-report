@@ -2342,8 +2342,10 @@ figure img {
   transform: translateY(-50px)
 }
 .hero.home-scroller-wrap .scroller-copy-entry {
+  position: relative;
   margin: auto;
-  width: 100%
+  width: 100%;
+  z-index: 1
 }
 .hero.home-scroller-wrap .lines-bg {
   top: 0;
