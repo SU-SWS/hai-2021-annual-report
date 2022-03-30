@@ -2,13 +2,7 @@
 // hard caching the old 2020 site for those who had loaded it.
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', () => {
-  self.registration.unregister()
-    .then(function() {
-      return self.clients.matchAll();
-    })
-    .then(function(clients) {
-      clients.forEach(client => client.navigate(client.url))
-    });
+  self.registration.unregister();
 });
 
 // A second method to attempt to destroy the serviceworker.
