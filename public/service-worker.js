@@ -6,12 +6,17 @@ self.addEventListener('activate', () => {
 });
 
 // A second method to attempt to destroy the serviceworker.
-navigator.serviceWorker.getRegistrations().then(function(registrations) {
-    for(let registration of registrations) {
-      registration.unregister()
-      document.location.reload()
-    }
-});
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      for(let registration of registrations) {
+        registration.unregister()
+        document.location.reload()
+      }
+    });
+  });
+}
+
 
 self.addEventListener('install', function(e) {
   self.skipWaiting();
