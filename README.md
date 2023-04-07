@@ -3,13 +3,11 @@
 
 This repo contains a Netlify-hosted static website for the HAI 2021 Annual Report.  The site is hosted under SWS's Netlify account. You can login to Netlify here: https://app.netlify.com/
 
+**IMPORTANT:** The [2022 Annual Report site](https://github.com/SU-SWS/hai-annual-report) has been launched out of a new `hai-annual-report` repo which should cover all reports in one repository. This has replaced the 2021 Annual Report on the live Stanford Annual Report URL: http://hai-annual-report.stanford.edu/ . However, this 2022 site is still active on the Netlify URL.
+
 - Netlify URL: https://hai-2021-annual-report.netlify.app/
-- Live Stanford URL: http://hai-annual-report.stanford.edu/
 
 The repo was built off of the site for the previous year, [SU-SWS/hai-2020-annual-report](https://github.com/SU-SWS/hai-2020-annual-report), which was built off [SU-SWS/assets_stanford_edu](https://github.com/SU-SWS/assets_stanford_edu).
-
-## Static Site Files
-The flat-file site was created by a third-party vendor. Our support of the site includes hosting and deploying, but not troubleshooting or making changes to the site. If there is a change needed, we will be supplied new files from the vendor to replace the existing site files, and then make a new deployment.
 
 ## Netlify Basics
 - The Netlify site is directly connected to this repo through Github.
